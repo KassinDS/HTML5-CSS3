@@ -274,25 +274,58 @@ summary:before {
     color:  #445161;
     font-size: 30px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 30px;
     text-align: center;
+    margin-bottom: 29px;
 }
 
-.buy_it .buy_box {
+.buy_box {
     width: 300px;
     display: inline-block;
     vertical-align: bottom;
     border: 2px solid #425062;
+    border-radius: 5px;
+    background-color: #425062;
 }
 
-.box1 {
-    height: 306px;
+.box1,
+.box2  {
+    margin-right: 35px;
 }
 
-.box2 {
-    height: 404px;
+.buy_box .product {
+    display: block;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 15px 0;
 }
 
-.box3 {
-    height: 499px;
+.price {
+    display: block;
+    background-color: #ffffff;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 18px 0;
+}
+
+.buy_box ol {
+    margin: 19px 0 0 20px;
+}
+
+.buy_box li {
+    list-style-position: inside;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
