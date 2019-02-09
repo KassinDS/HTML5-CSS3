@@ -126,6 +126,11 @@ header img {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    height: 70px;
+}
+
+summary {
+  outline: 0;
 }
 
 summary::-webkit-details-marker {
@@ -175,7 +180,7 @@ summary:before {
     font-weight: 400;
     line-height: 23px;
     text-align: left;
-    margin-bottom: 7px;
+    margin: 0 0 7px 0;
 }
 
 .scrinshots figcaption p {
@@ -185,5 +190,75 @@ summary:before {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    
-} 
+    margin-right: 15px;
+}
+
+.reviews {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.reviews > h2 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.reviews_block {
+    width: 564px;
+    float: left;
+    margin: 32px 24px 0 0;
+}
+
+.reviews img {
+    display: block;
+    float: left;
+    border-radius: 50%;
+}
+
+.reviews .img {
+    width: 75px;
+    height: 75px;
+    background-color: #425061;
+    border-radius: 50%;
+    float: left;
+}
+
+.quote {
+    background-color: #ececec;
+    width: 441px;
+    float: right;
+    position: relative;
+    padding: 16px 20px 16px 10px;;
+    border-radius: 3px;
+}
+
+
+.quote:before {
+    content: url(img/corner.png);
+    position: absolute;
+    left: -12px;
+    top: 27.5px;
+}
+
+.quote p {
+    font-family: Arial;
+    color:  #333333;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.quote span {
+    font-family: Arial;
+    color:  #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
