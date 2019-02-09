@@ -142,3 +142,48 @@ summary:before {
     float: right;
     width: 567px;
 }
+
+.scrinshots {
+    padding: 50px;
+}
+
+.scrinshots > h2 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.scrinshots figure {
+    float: left;
+    width: 574px;
+    margin-top: 30px;
+}
+
+.scrinshots img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+
+.scrinshots figcaption h2 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.scrinshots figcaption p {
+    font-family: Arial;
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+} 
