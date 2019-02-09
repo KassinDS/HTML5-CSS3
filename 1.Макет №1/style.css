@@ -238,10 +238,12 @@ summary:before {
 
 
 .quote:before {
-    content: url(img/corner.png);
+    content: "";
     position: absolute;
-    left: -12px;
+    left: -25px;
     top: 27.5px;
+    border: 15px solid transparent;
+    border-right: 15px solid #ececec;
 }
 
 .quote p {
@@ -261,4 +263,36 @@ summary:before {
     font-weight: 400;
     line-height: 18px;
     text-align: left;
+}
+
+.buy_it {
+    padding: 50px 145px 50px 145px;
+}
+
+.buy_it h2 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.buy_it .buy_box {
+    width: 300px;
+    display: inline-block;
+    vertical-align: bottom;
+    border: 2px solid #425062;
+}
+
+.box1 {
+    height: 306px;
+}
+
+.box2 {
+    height: 404px;
+}
+
+.box3 {
+    height: 499px;
 }
