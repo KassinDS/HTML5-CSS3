@@ -329,3 +329,180 @@ summary:before {
     line-height: 24px;
     text-align: left;
 }
+
+.buy_box a {
+    display: block;
+    float: left;
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+    font-family: Arial;
+    color:  #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.buy_box a:hover {
+    background-color: #ececec;
+}
+
+.buy_box a:active {
+    background-color: #445161;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 256px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.main_footer {
+    background-color: #445162;
+    padding: 53px 246px 49px 249px;
+}
+
+.main_footer > p {
+font-family: Arial;
+color:  #ffffff;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+margin-bottom: 31px;
+}
+
+form,
+contacts {
+    float: left;
+}
+
+input[type="text"],
+input[type="email"] {
+    border-radius: 5px;
+    background-color:  #ffffff;
+    width: 466px;
+    height: 16px;
+    margin-bottom: 21px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    padding: 14px 10px 14px 10px;
+    outline: none;
+    margin-right: 45px;
+}
+
+textarea {
+    border-radius: 5px;
+    background-color:  #ffffff;
+    width: 466px;
+    height: 170px;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    background-color:  #ffffff;
+    width: 140px;
+    height: 40px;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 21px 0 0 180px;
+    outline: none;
+}
+
+.contacts {
+    overflow: hidden;
+    width: 240px;
+}
+
+.contacts p {
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 29px;
+}
+
+.contacts p:first-child {
+    margin-top: 0;
+}
+
+.contacts p a {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.contacts .skype a {
+    background-image: url("img/skype_icon.png");
+    width: 24px;
+    height: 26px;
+}
+
+.contacts .icq a {
+    background-image: url("img/icq_icon.png");
+    width: 26px;
+    height: 26px;
+}
+
+.contacts .email a {
+    background-image: url("img/email_icon.png");
+    width: 22px;
+    height: 22px;
+}
+
+.contacts .phone a {
+    background-image: url("img/phone_icon.png");
+    width: 24px;
+    height: 23px;
+}
+
+.contacts ul {
+    margin-top: 32px;
+}
+
+.contacts ul li {
+    list-style-type: none;
+}
+
+.contacts ul li a {
+    width: 240px;
+    height: 42px;
+    display: block;
+    background-image: url("img/social_buttons.png");
+}
+
+.footer_copyright {
+    background-color: #f5f5f5;
+    padding: 10px 0 5px 0;
+}
+
+.footer_copyright p {
+    font-family: Arial;
+    color:  #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: center;
+}
