@@ -126,9 +126,14 @@ header img {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    height: 70px;
 }
 
-summary::-webkit-details-marker {
+summary {
+  outline: 0;
+}
+
+summary:details-marker {
     display: none;
 }
 
@@ -141,4 +146,363 @@ summary:before {
 .degnity_right {
     float: right;
     width: 567px;
+}
+
+.scrinshots {
+    padding: 50px;
+}
+
+.scrinshots > h2 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.scrinshots figure {
+    float: left;
+    width: 574px;
+    margin-top: 30px;
+}
+
+.scrinshots img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+
+.scrinshots figcaption h2 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    margin: 0 0 7px 0;
+}
+
+.scrinshots figcaption p {
+    font-family: Arial;
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-right: 15px;
+}
+
+.reviews {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.reviews > h2 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.reviews_block {
+    width: 564px;
+    float: left;
+    margin: 32px 24px 0 0;
+}
+
+.reviews img {
+    display: block;
+    float: left;
+    border-radius: 50%;
+}
+
+.reviews .img {
+    width: 75px;
+    height: 75px;
+    background-color: #425061;
+    border-radius: 50%;
+    float: left;
+}
+
+.quote {
+    background-color: #ececec;
+    width: 441px;
+    float: right;
+    position: relative;
+    padding: 16px 20px 16px 10px;;
+    border-radius: 3px;
+}
+
+
+.quote:before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 27.5px;
+    border: 15px solid transparent;
+    border-right: 15px solid #ececec;
+}
+
+.quote p {
+    font-family: Arial;
+    color:  #333333;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.quote span {
+    font-family: Arial;
+    color:  #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.buy_it {
+    padding: 50px 145px 50px 145px;
+}
+
+.buy_it h2 {
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.buy_box {
+    width: 300px;
+    display: inline-block;
+    vertical-align: bottom;
+    border: 2px solid #425062;
+    border-radius: 5px;
+    background-color: #425062;
+}
+
+.box1,
+.box2  {
+    margin-right: 35px;
+}
+
+.buy_box .product {
+    display: block;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.price {
+    display: block;
+    background-color: #ffffff;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 18px 0;
+}
+
+.buy_box ol {
+    margin: 19px 0 0 20px;
+}
+
+.buy_box li {
+    list-style-position: inside;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.buy_box a {
+    display: block;
+    float: left;
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+    font-family: Arial;
+    color:  #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.buy_box a:hover {
+    background-color: #ececec;
+}
+
+.buy_box a:active {
+    background-color: #445161;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 256px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.main_footer {
+    background-color: #445162;
+    padding: 53px 246px 49px 249px;
+}
+
+.main_footer > p {
+font-family: Arial;
+color:  #ffffff;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+margin-bottom: 31px;
+}
+
+form,
+contacts {
+    float: left;
+}
+
+input[type="text"],
+input[type="email"] {
+    border-radius: 5px;
+    background-color:  #ffffff;
+    width: 466px;
+    height: 16px;
+    margin-bottom: 21px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    padding: 14px 10px 14px 10px;
+    outline: none;
+    margin-right: 45px;
+}
+
+textarea {
+    border-radius: 5px;
+    background-color:  #ffffff;
+    width: 466px;
+    height: 170px;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    background-color:  #ffffff;
+    width: 140px;
+    height: 40px;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 21px 0 0 180px;
+    outline: none;
+}
+
+.contacts {
+    overflow: hidden;
+    width: 240px;
+}
+
+.contacts p {
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 29px;
+}
+
+.contacts p:first-child {
+    margin-top: 0;
+}
+
+.contacts p a {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.contacts .skype a {
+    background-image: url("img/skype_icon.png");
+    width: 24px;
+    height: 26px;
+}
+
+.contacts .icq a {
+    background-image: url("img/icq_icon.png");
+    width: 26px;
+    height: 26px;
+}
+
+.contacts .email a {
+    background-image: url("img/email_icon.png");
+    width: 22px;
+    height: 22px;
+}
+
+.contacts .phone a {
+    background-image: url("img/phone_icon.png");
+    width: 24px;
+    height: 23px;
+}
+
+.contacts ul {
+    margin-top: 32px;
+}
+
+.contacts ul li {
+    list-style-type: none;
+}
+
+.contacts ul li a {
+    width: 240px;
+    height: 42px;
+    display: block;
+    background-image: url("img/social_buttons.png");
+}
+
+.footer_copyright {
+    background-color: #f5f5f5;
+    padding: 10px 0 5px 0;
+}
+
+.footer_copyright p {
+    font-family: Arial;
+    color:  #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: center;
 }
