@@ -133,7 +133,7 @@ summary {
   outline: 0;
 }
 
-summary::-webkit-details-marker {
+summary:details-marker {
     display: none;
 }
 
