@@ -99,9 +99,13 @@ header img {
 .degnity {
     background-color: #f5f5f5;
     padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
     
 .degnity h2 {
+    width: 100%;
     font-family: Arial;
     color:  #445161;
     font-size: 30px;
@@ -111,8 +115,8 @@ header img {
     margin-bottom: 29px;
 }
 
-.degnity_left {
-    float: left;
+.degnity_left,
+.degnity_right {
     width: 567px;
 }
 
@@ -140,12 +144,8 @@ summary::-webkit-details-marker {
 summary:before {
     content: url(../img/plus_icon.png);
     position: absolute;
+    top: 4px;
     left: -41px;
-}
-
-.degnity_right {
-    float: right;
-    width: 567px;
 }
 
 .scrinshots {
