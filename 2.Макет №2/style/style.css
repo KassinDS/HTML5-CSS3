@@ -296,3 +296,8 @@
     width: 52px;
     height: 36px;
     background-image: url(../img/market_icon.png);
+}
+
+.realization {
+    background-color: #fbfaf8;
+}
