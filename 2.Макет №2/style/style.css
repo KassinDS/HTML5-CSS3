@@ -16,7 +16,8 @@
     width: 100%;
     padding: 0 150px 0 150px;
     box-sizing: border-box;
-    background-image: url(../img/photo_header.png)
+    background-color: #434240;
+    background-image: url(../img/photo_header.png);
 }
 
 .logo {
@@ -82,6 +83,12 @@
     border-radius: 3px;
 }
 
+.cart-search a:active {
+    background-color: #9a8775;
+    opacity: 0.99;
+    border-radius: 3px;
+}
+
 .slider {
     width: 100%;
     display: flex;
@@ -119,7 +126,7 @@
     margin: 0;
     font-family: Raleway;
     color: #ffffff;
-    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-size: 36px;
     font-weight: 500;
     text-align: center;
 }
@@ -136,9 +143,9 @@
 .slider-center p {
     font-family: Montserrat;
     color: #ffffff;
-    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-size: 16px;
     font-weight: 300;
-    line-height: 16px; /* Приближение из-за подстановки шрифтов */
+    line-height: 16px;
     text-align: center;
 }
 
@@ -152,20 +159,21 @@
     text-decoration: none;
     font-family: Raleway;
     color:  #ffffff;
-    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-size: 14px;
     font-weight: 700;
-    line-height: 53px;/* Приближение из-за подстановки шрифтов */
+    line-height: 53px;
     text-align: center;
     box-shadow: 0px 3px 2px #736356;
     margin-top: 52px;
 }
 
 .slider-center_button:hover {
-    color:  black;
+    background-color: #c7b299;
 }
 
 .slider-center_button:active {
     box-shadow: none;
+    color:  black;
 }
 
 .slider-bottom {
@@ -213,6 +221,10 @@
 
 .slider-bottom_list a:hover {
     background-color:  #d3c1ad;
+}
+
+.slider-bottom_list a:active {
+    background-color:  #9a8775;
 }
 
 .services {
@@ -264,6 +276,14 @@
     background-color: #c7b299;
 }
 
+.services-link:active .services-link_h3 {
+    color: #9a8775;
+}
+
+.services-link:active .services-link_line {
+    background-color: #9a8775;
+}
+
 .services-link_icon {
     display: block;
     margin-left: 109px;
@@ -300,4 +320,311 @@
 
 .realization {
     background-color: #fbfaf8;
+    padding: 83px 0 522px 0;
+    background-image: url(../img/browser-center.png), 
+                      url(../img/browser-left.png),
+                      url(../img/browser-right.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom center, bottom left 345px, bottom right 345px;
+}
+
+.realization h2 {
+    font-family: Raleway;
+    color:  #555555;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.realization p {
+    margin: 18px 0 0 583px;
+    width: 757px;
+    font-family: Montserrat;
+    color:  #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+.purchase {
+    padding: 50px 375px;
+    background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+
+.purchase-txt {
+    float: left;
+}
+
+.purchase-txt h3 {
+    margin: 0;
+    font-family: Raleway;
+    color:  #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.purchase-txt h3 span {
+    color:  #c7b299;
+}
+
+.purchase p {
+    margin: 0;
+    font-family: Montserrat;
+    color:  #615855;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.purchase a {
+    display: block;
+    text-decoration: none;
+    float: right;
+    border-radius: 3px;
+    background-color:  #998675;
+    width: 170px;
+    height: 50px;
+    font-family: Raleway;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 2px #736356;
+}
+
+.purchase a:hover {
+    background-color: #c7b299;
+}
+
+.purchase a:active {
+    color:  black;
+    box-shadow: none;
+}
+
+.lastest-projects {
+    padding: 80px 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lastest-projects h2 {
+    width: 100%;
+    margin: 0;
+    font-family: Raleway;
+    color:  #555555;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.lastest-projects > p {
+    width: 100%;
+    margin: 24px 0 40px 0;
+    font-family: Montserrat;
+    color:  #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+.projects-menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 0 0 40px 282px;
+}
+
+.projects-menu_link {
+    float: left;
+    display: block;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ebebeb;
+    box-sizing: border-box;
+    background-color:  rgba(17, 17, 17, 0);
+    margin-right: 10px;
+}
+
+.projects-menu_link:last-child {
+    margin-right: 0px;
+}
+
+.projects-menu_link a {
+    text-decoration: none;
+    display: block;
+    font-family: Montserrat;
+    color:  #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 20px;
+    text-transform: capitalize;
+}
+
+.projects-menu .active {
+    border-radius: 3px;
+    background-color:  #998675;   
+}
+
+.projects-menu .active a {
+    color:  #ffffff;
+}
+
+.projects-menu_link a:hover {
+    background-color: #c7b299;
+    color: #ffffff;
+}
+
+.projects-menu_link a:active {
+    background-color: #c7b299;
+    color: black;
+}
+
+.project {
+    width: 370px;
+    margin: 0;
+    background-color:  #fbfaf8;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.project .project-hover {
+    position: absolute;
+    top: 106px;
+    left: 144px;
+    display: none;
+}
+
+.project-hover a {
+    display: block;
+    float: left;
+    width: 26px;
+    height: 25px;
+    margin-right: 28px;
+}
+
+.project-hoevr_link {
+    background-image: url(../img/link.png);
+}
+
+.project-hoevr_lupa {
+    background-image: url(../img/lupa.png);
+}
+
+.project:hover .project-hover {
+    display: block;
+}
+
+
+.project span {
+    display: block;
+    padding: 237px 370px 0 0;
+    position: relative;
+}
+
+.project span:after {
+    content: "";
+    border: 15px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+    position: absolute;
+    top: 212px;
+    left: 19px;
+}
+
+.project_1 span {
+    background-image: url(../img/project_1.png);
+}
+
+.project_2 span {
+    background-image: url(../img/project_2.png);
+}
+
+.project_3 span {
+    background-image: url(../img/project_3.png);
+}
+.project_4 span {
+    background-image: url(../img/project_4.png);
+}
+
+.project_5 span {
+    background-image: url(../img/project_5.png);
+}
+
+.project_6 span {
+    background-image: url(../img/project_6.png);
+}
+
+.project h3 {
+    margin: 30px 0 0 28px;
+    font-family: Raleway;
+    color: #c7b29a;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.project p {
+    font-family: Montserrat;
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    margin: 14px 0 27px 30px;
+}
+
+.lastest-projects .project_active {
+    background-color:  #362f2d;
+    position: relative;
+}
+
+.lastest-projects .project_active span:after {
+    content: "";
+    border: 15px solid transparent;
+    border-bottom: 10px solid #362f2d;
+    position: absolute;
+    top: 212px;
+    left: 19px;
+}
+
+.projects-load_more {
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 3px;
+    background-color:  #998675;
+    font-family: Raleway;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 2px #736356;
+    margin: 40px 0 0 500px;
+}
+
+.projects-load_more:hover {
+    background-color: #c7b299;
+}
+
+.projects-load_more:active {
+    color:  black;
+    box-shadow: none;
 }
