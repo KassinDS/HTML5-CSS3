@@ -18,6 +18,7 @@
     box-sizing: border-box;
     background-color: #434240;
     background-image: url(../img/photo_header.png);
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -41,7 +42,7 @@
     text-decoration: none;
     font-family: Montserrat;
     color:  #ffffff;
-    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-size: 14px;
     font-weight: 300;
     text-align: center;
     display: block;
@@ -96,9 +97,9 @@
     align-items: center;
 }
 
-.slider-left a {
+.slider-left {
     display: block;
-    width: 40px;
+    width: 70px;
     height: 73px;
     background-image: url(../img/slider_left.png);
 }
@@ -107,9 +108,9 @@
     background-image: url(../img/slider_left_hover.png);
 }
 
-.slider-right a {
+.slider-right {
     display: block;
-    width: 40px;
+    width: 70px;
     height: 73px;
     background-image: url(../img/slider_right.png);
 }
@@ -179,7 +180,7 @@
 .slider-bottom {
     height: 15px;
     margin: 0 0 0 755px;
-    padding: 0 0 40px 0;
+    padding: 0 0 38px 0;
     display: flex;
     align-items: center;
 }
@@ -390,12 +391,11 @@
     border-radius: 3px;
     background-color:  #998675;
     width: 170px;
-    height: 50px;
+    padding: 20px 0;
     font-family: Raleway;
     color:  #ffffff;
     font-size: 14px;
     font-weight: 700;
-    line-height: 50px;
     text-align: center;
     text-transform: uppercase;
     box-shadow: 0px 3px 2px #736356;
@@ -605,7 +605,6 @@
 .projects-load_more {
     display: block;
     width: 170px;
-    height: 50px;
     border-radius: 3px;
     background-color:  #998675;
     font-family: Raleway;
